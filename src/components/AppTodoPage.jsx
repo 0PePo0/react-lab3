@@ -12,7 +12,7 @@ export default function AppTodoPage() {
 
   return (
     <div style={styles.container}>
-      <h1>To-Do List</h1>
+      <h1 style={{ textAlign: "center" }}>To-Do List</h1>
       <AddTodoForm onAddTodo={handleAddTask} />
       <TodoList
         tasks={tasks}
